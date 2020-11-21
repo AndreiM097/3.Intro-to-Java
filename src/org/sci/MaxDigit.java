@@ -2,7 +2,7 @@ package org.sci;
 
 public class MaxDigit {
 
-    public void display(){
+    protected static void display(){
         int number = 635;
         int reminder ,max = 0;
         while(number > 0){

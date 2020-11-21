@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class DisplayNumbers {
 
-    public void display(){
+    protected static void display(){
         System.out.println("5. Display all the prime numbers lower than a given number");
 
         System.out.println("Input a number(integer)");

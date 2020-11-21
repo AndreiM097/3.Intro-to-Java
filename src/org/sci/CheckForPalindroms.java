@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class CheckForPalindroms {
 
-    public void display(){
+    protected static void display(){
         System.out.println("4. Check if a number is palindrom( e.g palindrom 1221, 34143)");
 
         Scanner scanner = new Scanner(System.in);

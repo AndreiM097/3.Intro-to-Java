@@ -2,7 +2,7 @@ package org.sci;
 
 public class SmallestNumber {
 
-    public void display(){
+    protected static void display(){
         int[] numbersArray = {100,342,4,34,232};
         int min = numbersArray[0];
 

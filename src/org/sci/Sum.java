@@ -3,7 +3,7 @@ package org.sci;
 public class Sum {
 
 
-    void display() {
+    protected static void display() {
         // 1. Calculate the sum of the first 100 numbers.
 
         int sum = 0;

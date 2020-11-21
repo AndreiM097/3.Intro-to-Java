@@ -1,33 +1,29 @@
 package org.sci;
 
-import java.util.Scanner;
+
 
 public class Main {
 
     public static void main(String[] args) {
+        // 1. Calculate the sum of the first 100 numbers.
 
-        Sum exerciseOne = new Sum();
-        exerciseOne.display();
+        Sum.display();
 
         //2.Display the smallest number from an array of numbers.
 
-        SmallestNumber exerciseTwo = new SmallestNumber();
-        exerciseTwo.display();
+        SmallestNumber.display();
 
         //3.Display the max digit from a number.
 
-        MaxDigit exerciseThree = new MaxDigit();
-        exerciseThree.display();
+        MaxDigit.display();
 
         //4. Check if a number is palindrom( e.g palindrom 1221, 34143)
 
-        CheckForPalindroms exerciseFour = new CheckForPalindroms();
-        exerciseFour.display();
+        CheckForPalindroms.display();
 
         //5. Display all the prime numbers lower than a given number
 
-        DisplayNumbers exerciseFive = new DisplayNumbers();
-        exerciseFive.display();
+        DisplayNumbers.display();
 
 
         /*
